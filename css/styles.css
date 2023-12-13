@@ -280,7 +280,6 @@ body {
 .tsmlink:hover {
   background-color: var(--pressedocean-color);
 }
-
 .tsmlink:focus {
   background-color: var(--pressedocean-color);
 }
