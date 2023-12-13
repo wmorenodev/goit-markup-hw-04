@@ -316,6 +316,15 @@ body {
   background-color: var(--darknavy-color);
   padding: 100px 0 100px;
 }
+.fcontainer {
+  display: flex;
+  align-items: baseline;
+}
+.fdivone {
+  margin-right: 120px;
+}
+.fsocialdiv {
+}
 .foots a {
   display: inline-block;
   margin-bottom: 16px;
