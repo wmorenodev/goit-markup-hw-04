@@ -126,6 +126,14 @@ body {
 .sectionone {
   background-color: var(--darknavy-color);
   padding: 188px 0 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/peopleofficebg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1440px auto;
 }
 .sonecont {
   display: flex;
@@ -275,11 +283,19 @@ body {
   color: var(--whitewhite-color);
   background-color: var(--pressedocean-color);
   border: 1px solid var(--transparent-color);
+
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .filterbutton:focus {
   color: var(--whitewhite-color);
   background-color: var(--pressedocean-color);
   border: 1px solid var(--transparent-color);
+
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .headerfilter {
   font-weight: 500;
@@ -306,6 +322,11 @@ body {
 }
 .portfoliomainitem {
   width: calc((100% - 48px) / 3);
+}
+.portfoliomainitem:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .portfoliomainlinkcont {
   padding: 32px 16px;
