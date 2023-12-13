@@ -303,6 +303,12 @@ body {
   justify-content: center;
   color: var(--subtlelight-color);
 }
+.clientslink:hover {
+  border-color: var(--pressedocean-color);
+}
+.clientslink:focus {
+  border-color: var(--pressedocean-color);
+}
 .clientssvg {
   fill: currentColor;
 }
