@@ -325,10 +325,11 @@ body {
 }
 .fsocialdiv {
 }
-.foots a {
+.flogoa {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .footerpar {
   font-family: "Roboto";
   line-height: 1.5;
@@ -342,6 +343,30 @@ body {
 .fsmpar {
   font-weight: 500;
   margin-bottom: 16px;
+  color: var(--whitewhite-color);
+}
+.fsmlist {
+  gap: 16px;
+}
+.fsmlistitem {
+  width: 40px;
+  height: 40px;
+}
+.fsmlista {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primaryiris-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fsmlista:hover {
+  background-color: var(--successgreen-color);
+}
+
+.fsmlista:focus {
+  background-color: var(--successgreen-color);
 }
 .filterbutton {
   color: var(--primaryiris-color);
