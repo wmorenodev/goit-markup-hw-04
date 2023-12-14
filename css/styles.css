@@ -339,6 +339,10 @@ body {
   text-transform: none;
   max-width: 264px;
 }
+.fsmpar {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
 .filterbutton {
   color: var(--primaryiris-color);
   background-color: var(--lightcloud-color);
