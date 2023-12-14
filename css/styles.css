@@ -280,7 +280,7 @@ body {
 .tsmlink:hover {
   background-color: var(--pressedocean-color);
 }
-.tsmlink:focus {
+.tsmlink: {
   background-color: var(--pressedocean-color);
 }
 .tsmsvg {
@@ -367,6 +367,9 @@ body {
 
 .fsmlista:focus {
   background-color: var(--successgreen-color);
+}
+.fsmlistsvg {
+  fill: var(--lightcloud-color);
 }
 .filterbutton {
   color: var(--primaryiris-color);
