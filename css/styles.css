@@ -294,10 +294,17 @@ body {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
+.clientsitem:hover {
+  color: var(--pressedocean-color);
+}
+.clientsitem:focus {
+  color: var(--pressedocean-color);
+}
+
 .clientslink {
   width: 100%;
   height: 100%;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--subtlelight-color);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -313,6 +320,13 @@ body {
 .clientssvg {
   fill: currentColor;
 }
+.clientssvg:hover {
+  color: var(--pressedocean-color);
+}
+
+.clientssvg:focus {
+  color: var(--pressedocean-color);
+}
 .foots {
   background-color: var(--darknavy-color);
   padding: 100px 0 100px;
@@ -324,8 +338,7 @@ body {
 .fdivone {
   margin-right: 120px;
 }
-.fsocialdiv {
-}
+
 .flogoa {
   display: inline-block;
   margin-bottom: 16px;
